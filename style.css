@@ -5,14 +5,14 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 0px 120px;
+    padding: 0px 80px 80px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     flex: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .header-logo {
@@ -26,6 +26,7 @@ body {
     gap: 16px;
     list-style: none;
     font-size: 18px;
+    margin-top: 12px;
 }
 
 .header-links a {
@@ -39,14 +40,14 @@ body {
     gap: 100px;
 }
 
-.intro-text {
-    
-}
-
 .title {
     margin-top: 0px;
     color: #F9FAF8;
     font-size: 48px;
+}
+
+.intro-text {
+    min-width: 300px;
 }
 
 .subtext {
