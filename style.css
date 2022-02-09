@@ -5,14 +5,14 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 0px 80px 80px;
+    padding: 0px 200px 120px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     flex: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .header-logo {
@@ -64,7 +64,107 @@ body {
     padding: 8px 20px;
     
 }
-img {
-    width: 500px;
-    height: 300px;
+#head-img {
+    max-width: 450px;
+    max-height: 250px;
+}
+
+.panels {
+    padding: 0px 240px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panels h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 150px;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: #3882f6 2px solid;
+}
+
+.card p {
+    text-align: center;
+    color: #1F2937;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 240px;
+    height: 400px;
+}
+
+.quote-box p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-box #quote {
+    margin-bottom: 0;
+}
+
+.quote-box #speaker {
+    margin-top: 0px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 90px 220px;
+    padding: 60px;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.call-subtext {
+    color: #E5E7EB;
+}
+
+.call-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: solid 2px #E5E7EB;
+    border-radius: 6px;
+    padding: 6px 28px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
